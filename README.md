@@ -2,7 +2,7 @@
 ===========================
 **WARNING: This is a heavily modified fork of [https://code.google.com/p/2dimagefilter/](https://code.google.com/p/2dimagefilter/).**
 
-I removed all G(UI) and any exotic (WPF, etc) .NET features that Mono does not support.
+I removed all (G)UI and any exotic (WPF, etc) .NET features that Mono does not support.
 
 The command-line version is fully functional and can be used without any hickups.
 
