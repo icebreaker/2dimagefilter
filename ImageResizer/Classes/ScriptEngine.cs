@@ -1,4 +1,4 @@
-﻿#region (c)2008-2015 Hawkynt
+#region (c)2008-2015 Hawkynt
 /*
  *  cImage 
  *  Image filtering library 
@@ -98,7 +98,7 @@ namespace Classes {
     /// Gets a value indicating whether this instance is source image changed.
     /// </summary>
     /// <value>
-    /// 	<c>true</c> if this instance is source image changed; otherwise, <c>false</c>.
+    ///     <c>true</c> if this instance is source image changed; otherwise, <c>false</c>.
     /// </value>
     public bool IsSourceImageChanged { get; private set; }
 
@@ -106,7 +106,7 @@ namespace Classes {
     /// Gets a value indicating whether this instance is target image changed.
     /// </summary>
     /// <value>
-    /// 	<c>true</c> if this instance is target image changed; otherwise, <c>false</c>.
+    ///     <c>true</c> if this instance is target image changed; otherwise, <c>false</c>.
     /// </value>
     public bool IsTargetImageChanged { get; private set; }
 

@@ -1,4 +1,4 @@
-﻿#region (c)2008-2015 Hawkynt
+#region (c)2008-2015 Hawkynt
 /*
  *  cImage 
  *  Image filtering library 
@@ -474,7 +474,7 @@ namespace Imager.Classes {
             filterCoeff[coeffIndex + n] = (float)kernel(srcX - (pos + n));
         }
 
-        if (kernelNormalize)	/* Normalize */ {
+        if (kernelNormalize)    /* Normalize */ {
           var sum = 0f;
 
           for (var n = 0; n < filterWidth; n++)

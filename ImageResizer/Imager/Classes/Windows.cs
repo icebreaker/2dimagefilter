@@ -1,4 +1,4 @@
-﻿#region (c)2008-2015 Hawkynt
+#region (c)2008-2015 Hawkynt
 /*
  *  cImage 
  *  Image filtering library 
@@ -500,8 +500,8 @@ namespace Imager.Classes {
       if (x < -radius || x > radius)
         return (0);
 
-      var n = (double)x + radius;
-      var N = 2d * radius + 1;
+      //var n = (double)x + radius;
+      //var N = 2d * radius + 1;
 
       var w = 1 / (1 + _Pow(alpha * _Abs(x) / radius, 2));
       return (w);

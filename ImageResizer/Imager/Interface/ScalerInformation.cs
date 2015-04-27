@@ -1,4 +1,4 @@
-﻿
+
 namespace Imager.Interface {
   public class ScalerInformation {
     private readonly string _displayName;

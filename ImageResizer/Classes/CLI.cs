@@ -1,4 +1,4 @@
-﻿#region (c)2008-2015 Hawkynt
+#region (c)2008-2015 Hawkynt
 /*
  *  cImage 
  *  Image filtering library 
@@ -43,7 +43,10 @@ namespace Classes {
     /// <param name="arguments">The arguments.</param>
     public static CLIExitCode ParseCommandLineArguments(string[] arguments) {
       if (arguments == null || arguments.Length < 1)
+        {
+            _ShowHelp();
         return (CLIExitCode.OK);
+        }
 
       var engine = new ScriptEngine();
       var line = string.Join(" ", arguments.Select(a => string.Format(@"""{0}""", a)));

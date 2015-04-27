@@ -1,4 +1,4 @@
-﻿#region (c)2008-2015 Hawkynt
+#region (c)2008-2015 Hawkynt
 /*
  *  cImage 
  *  Image filtering library 

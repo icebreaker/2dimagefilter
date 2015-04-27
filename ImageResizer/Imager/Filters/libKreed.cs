@@ -1,4 +1,4 @@
-﻿#region (c)2008-2015 Hawkynt
+#region (c)2008-2015 Hawkynt
 /*
  *  cImage 
  *  Image filtering library 
@@ -49,7 +49,7 @@ namespace Imager.Filters {
     /// Kreed's SuperEagle modified by Hawkynt to allow thresholds
     /// </summary>
     public static void SuperEagle(PixelWorker<sPixel> worker) {
-      var c0 = worker.SourceM1M1();
+      // var c0 = worker.SourceM1M1();
       var c1 = worker.SourceP0M1();
       var c2 = worker.SourceP1M1();
       var c3 = worker.SourceM1P0();

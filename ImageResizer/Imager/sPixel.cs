@@ -1,4 +1,4 @@
-﻿#region (c)2008-2015 Hawkynt
+#region (c)2008-2015 Hawkynt
 /*
  *  cImage 
  *  Image filtering library 
@@ -778,7 +778,7 @@ namespace Imager {
     /// </summary>
     /// <param name="o">The <see cref="System.Object"/> to compare with this instance.</param>
     /// <returns>
-    /// 	<c>true</c> if the specified <see cref="System.Object"/> is equal to this instance; otherwise, <c>false</c>.
+    ///     <c>true</c> if the specified <see cref="System.Object"/> is equal to this instance; otherwise, <c>false</c>.
     /// </returns>
     public override bool Equals(object o) {
       return ((o is sPixel) && (((sPixel)o)._rgbBytes == this._rgbBytes));
@@ -789,7 +789,7 @@ namespace Imager {
     /// </summary>
     /// <param name="pixel">The <see cref="sPixel"/> to compare with this instance.</param>
     /// <returns>
-    /// 	<c>true</c> if the specified <see cref="sPixel"/> is equal to this instance; otherwise, <c>false</c>.
+    ///     <c>true</c> if the specified <see cref="sPixel"/> is equal to this instance; otherwise, <c>false</c>.
     /// </returns>
     public bool Equals(sPixel pixel) {
       return (pixel._rgbBytes == this._rgbBytes);
@@ -800,7 +800,7 @@ namespace Imager {
     /// </summary>
     /// <param name="pixel">The instance to compare to.</param>
     /// <returns>
-    /// 	<c>true</c> if the specified instance is alike; otherwise, <c>false</c>.
+    ///     <c>true</c> if the specified instance is alike; otherwise, <c>false</c>.
     /// </returns>
     public bool IsLike(sPixel pixel) {
       if (!AllowThresholds)
@@ -823,7 +823,7 @@ namespace Imager {
     /// </summary>
     /// <param name="pixel">The instance to compare to.</param>
     /// <returns>
-    /// 	<c>true</c> if the specified instance is not alike; otherwise, <c>false</c>.
+    ///     <c>true</c> if the specified instance is not alike; otherwise, <c>false</c>.
     /// </returns>
     public bool IsNotLike(sPixel pixel) {
       return (!this.IsLike(pixel));
